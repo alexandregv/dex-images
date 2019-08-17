@@ -1,8 +1,8 @@
 FROM node:alpine
 
-LABEL maintainer="contact@triinoxys.fr"
-LABEL docker.cmd="docker run triinoxys/node-cli <command>"
-LABEL docker.cmd.help="docker run triinoxys/node-cli help"
+LABEL maintainer="contact@alexandregv.fr"
+LABEL docker.cmd="docker run alexandregv/node-cli <command>"
+LABEL docker.cmd.help="docker run alexandregv/node-cli help"
 
 LABEL org.dockerland.dex.api=v1
 LABEL org.dockerland.dex.docker_volumes="\$(pwd):/app"
